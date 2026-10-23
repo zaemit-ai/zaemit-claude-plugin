@@ -14,7 +14,7 @@ Reservations are a plugin (`plugin_install`). Bookings are accepted only after t
 2. Ask only what is essential and missing: what is booked, which days and hours, how many people per slot.
 3. `reservation_upsertProduct`, then `reservation_setSchedule` (`kind=weekly`), then `reservation_embed` on the page the user named. Do all three; a product without a booking screen takes no bookings.
 4. Read `published` and `publish_missing` in the embed response.
-5. Report the page address and what is open for booking. For each item in `publish_missing` that this connection cannot do, say it is done in the Zaemit admin screen.
+5. Report the page address and what is open for booking. For each item in `publish_missing` that this connection cannot do, say it is done in the Zaemit admin screen. A test booking cannot be made in this connection: when it is the item left, tell the user to add one in the Zaemit admin screen under [예약자 관리 → 수동 예약 등록]. After it is added, call `reservation_embed` again: it publishes reservations once every condition is met. Do not offer to make the test booking.
 
 ### Handle new bookings
 1. `reservation_listBookings` for requested bookings.
