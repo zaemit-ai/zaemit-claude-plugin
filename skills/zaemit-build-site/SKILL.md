@@ -5,7 +5,7 @@ description: Build a Zaemit website or a new page from pre-designed blocks. Use 
 
 # Building a Zaemit site
 
-Pages are assembled from pre-designed blocks. The server adds styling, header, footer, menu links and photos: Zaemit library photos first, then stock photos from Unsplash and Lummi, and photos of people may be AI-generated (up to 6 per build, each charged in Zaemit credits). Photos from outside Zaemit are copied into the site storage on save.
+Pages are assembled from pre-designed blocks. The server adds styling, header, footer, menu links and photos: Zaemit library photos first, then stock photos from Unsplash and Lummi. Photos from outside Zaemit are copied into the site storage on save.
 
 ## Workflows
 

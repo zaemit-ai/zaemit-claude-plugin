@@ -48,7 +48,7 @@ Changes that delete or revert content run only after you confirm them. Some feat
 
 - The plugin sends your requests to the Zaemit server at `zaemit.ai` through the connector, on behalf of the signed-in Zaemit account, for the connected site only.
 - Responses contain the site's content and settings. Names, phone numbers, emails and addresses of members and customers are masked unless you allowed raw access when connecting.
-- When Zaemit fills in photos, it uses the Zaemit photo library and stock photos from Unsplash and Lummi, and copies them into your site's storage. Photos of people may be AI-generated and use Zaemit credits.
+- When Zaemit fills in photos, it uses the Zaemit photo library and stock photos from Unsplash and Lummi, and copies them into your site's storage.
 - The plugin itself stores nothing and contains no secrets. Zaemit handles the data it receives under its [privacy policy](https://zaemit.ai/privacy-policy).
 
 ## Support
