@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "zaemit": {
+      "type": "http",
+      "url": "https://zaemit.ai/mcp/claude"
+    }
+  }
+}

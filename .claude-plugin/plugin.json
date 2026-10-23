@@ -1,0 +1,20 @@
+{
+  "name": "zaemit",
+  "displayName": "Zaemit",
+  "version": "0.1.0",
+  "description": "Build and manage Zaemit websites from Claude: create sites and pages from pre-designed blocks, edit text and sections, and run boards, inquiry forms, a shop, reservations, contests and events.",
+  "author": {
+    "name": "Weven Co., Ltd.",
+    "email": "wevenmaster@gmail.com",
+    "url": "https://zaemit.ai"
+  },
+  "homepage": "https://zaemit.ai",
+  "repository": "https://github.com/zaemit-ai/zaemit-claude-plugin",
+  "license": "MIT",
+  "keywords": ["website", "website-builder", "cms", "landing-page", "korean"],
+  "icon": "assets/icon.png",
+  "documentationUrl": "https://github.com/zaemit-ai/zaemit-claude-plugin#readme",
+  "supportUrl": "https://zaemit.ai/customer-center",
+  "privacyPolicyUrl": "https://zaemit.ai/privacy-policy",
+  "termsOfServiceUrl": "https://zaemit.ai/terms-of-service"
+}
